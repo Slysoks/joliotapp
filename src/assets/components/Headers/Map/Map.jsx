@@ -3,7 +3,7 @@ import '../Header.scss'
 function Map() {
     return (
         <header>
-            <h1>Accueil</h1>
+            <h1>Cartographie</h1>
         </header>
     )
 }

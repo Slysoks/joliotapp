@@ -7,6 +7,7 @@ import Map from './assets/pages/Map/Map.jsx';
 import Footer from './assets/components/Footer/Footer';
 import HomeHeader from './assets/components/Headers/Home/Home';
 import NewsHeader from './assets/components/Headers/News/News';
+import MapHeader from './assets/components/Headers/Map/Map';
 
 
 function App() {
@@ -30,6 +31,8 @@ function HeaderController() {
         return <HomeHeader />;
     }else if (pathname === "/news") {
         return <NewsHeader />;
+    } else if (pathname === "/map") {
+        return <MapHeader />;
     }
 }
 

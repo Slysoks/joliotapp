@@ -26,8 +26,15 @@ article, a {
         mix-blend-mode: difference;
         color: #fff;
 
+        max-width: 95%;
+        border-radius: 20px;
+        padding: 20px;
+
         font-size: 7vw;
         font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        backdrop-filter: blur(3px);
+
+        box-sizing: border-box;
 
         text-align: center;
     }
