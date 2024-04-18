@@ -3,12 +3,10 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import Home from './assets/pages/Home/Home.jsx';
 import News from './assets/pages/News/News.jsx';
 import Map from './assets/pages/Map/Map.jsx';
+import Account from './assets/pages/Account/Account.jsx';
+import Menu from './assets/pages/Menu/Menu.jsx';
 
 import Footer from './assets/components/Footer/Footer';
-import HomeHeader from './assets/components/Headers/Home/Home';
-import NewsHeader from './assets/components/Headers/News/News';
-import MapHeader from './assets/components/Headers/Map/Map';
-
 
 function App() {
     return (
@@ -46,7 +44,7 @@ function NotFound() {
     const location = useLocation();
     const { pathname } = location;
 
-    return <h1 id={'notfound'}>Page introuvable : {pathname}</h1>;
+    return <h1 id={'notfound'}>404 Page introuvable : {pathname}</h1>;
 }
 
 function RouterController() {
@@ -56,6 +54,8 @@ function RouterController() {
             <Route path="/home" element={<Home />} />
             <Route path="/news" element={<News />} />
             <Route path="/map" element={<Map />} />
+            <Route path="/account" element={<Account />} />
+            <Route path="/menu" element={<Menu />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     );

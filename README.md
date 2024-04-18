@@ -21,3 +21,9 @@ Install npm dependencies :
 ```sh
 npm install
 ```
+
+Run the app with npm :
+
+```sh	
+npm run dev
+```
