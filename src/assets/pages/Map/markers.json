@@ -1,0 +1,92 @@
+{
+  "always": {
+    "a": {
+      "name": "B&acirc;timent A",
+      "description": "B&acirc;timent d&apos;administration",
+      "coordinates": {
+        "latitude": 48.12696,
+        "longitude": -1.65109
+      }
+    },
+    "b": {
+      "name": "B&acirc;timent B",
+      "description": "B&acirc;timent technologique",
+      "coordinates": {
+        "latitude": 48.12649,
+        "longitude": -1.65008
+      }
+    },
+    "c": {
+      "name": "B&acirc;timent C",
+      "description": "B&acirc;timent de sciences",
+      "coordinates": {
+        "latitude": 48.12649,
+        "longitude": -1.65008
+      }
+    },
+    "d": {
+      "name": "B&acirc;timent D",
+      "description": "Salles de classe, vie scolaire",
+      "coordinates": {
+        "latitude": 48.12699,
+        "longitude": -1.64833
+      }
+    },
+    "e": {
+      "name": "B&acirc;timent E",
+      "description": "CDI, salle des professeurs",
+      "coordinates": {
+        "latitude": 48.12635,
+        "longitude": -1.64842
+      }
+    },
+    "f": {
+      "name": "B&acirc;timents F",
+      "description": "Salles prefa (1, 2, 3, 4)",
+      "coordinates": {
+        "latitude": 48.12635,
+        "longitude": -1.64842
+      }
+    },
+    "g": {
+      "name": "B&acirc;timent G",
+      "description": "Internat, K-fet, foyer",
+      "coordinates": {
+        "latitude": 48.12609,
+        "longitude": -1.64714
+      }
+    },
+    "h": {
+      "name": "B&acirc;timent H",
+      "description": "Infirmerie",
+      "coordinates": {
+        "latitude": 48.12588,
+        "longitude": -1.64650
+      }
+    },
+    "j": {
+      "name": "B&acirc;timent J",
+      "description": "Self",
+      "coordinates": {
+        "latitude": 48.12487,
+        "longitude": -1.64726
+      }
+    },
+    "k": {
+      "name": "B&acirc;timent K",
+      "description": "Salle de sport",
+      "coordinates": {
+        "latitude": 48.12712,
+        "longitude": -1.64666
+      }
+    },
+    "l": {
+      "name": "B&acirc;timent L",
+      "description": "Inconnu au bataillon",
+      "coordinates": {
+        "latitude": 48.12717,
+        "longitude": -1.64566
+      }
+    }
+  }
+}

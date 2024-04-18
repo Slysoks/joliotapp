@@ -2,7 +2,6 @@ import './Footer.scss'
 import { Link } from 'react-router-dom';
 
 function Footer() {
-    console.log('Footer')
     return (
         <footer>
             <nav>

@@ -11,12 +11,11 @@ import MapHeader from './assets/components/Headers/Map/Map';
 
 
 function App() {
-    console.log('App');
     return (
         <Router>
-            <HeaderController />
-            <RouterController />
-            <Footer />
+            <HeaderController/>
+            <RouterController/>
+            <Footer/>
         </Router>
     );
 }
@@ -25,15 +24,22 @@ function HeaderController() {
     const location = useLocation();
     const { pathname } = location;
 
-    if (pathname === "/") {
-        return <HomeHeader />;
-    } else if (pathname === "/home") {
-        return <HomeHeader />;
-    }else if (pathname === "/news") {
-        return <NewsHeader />;
-    } else if (pathname === "/map") {
-        return <MapHeader />;
+    console.log('HeaderController', location);
+
+    let name;
+
+    if (pathname === '/') {
+        name = 'home';
+    } else {
+        name = pathname.substring(1);
     }
+
+    return(
+        <header>
+            <h1 style={{textTransform: "uppercase"}}>{name}</h1>
+        </header>
+    )
+
 }
 
 function NotFound() {
