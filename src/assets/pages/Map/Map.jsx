@@ -2,7 +2,7 @@ function Map() {
     return (
         <div>
             <label>
-                B&acirc;timent
+                B&acirc;timent&ensp; 
                 <select id="type">
                     <option value="a">A</option>
                     <option value="b">B</option>
