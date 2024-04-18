@@ -4,8 +4,8 @@
     "start_url": "/?home=true",
     "icons": [
       {
-        "src": "/src/assets/img/icons/icon.png",
-        "sizes": "512x512",
+        "src": "/src/assets/img/icons/logo.png",
+        "sizes": "826x644",
         "type": "image/png"
       }
     ],
