@@ -1,7 +1,10 @@
 function Menu() {
+    const currentDate = new Date();
+    const jourSemaine = currentDate.toLocaleString('fr-FR', { weekday: 'long' });
+  
     return (
         <div>
-            <h1>Menu</h1>
+            <h1>{jourSemaine}</h1>
         </div>
     );
 }
