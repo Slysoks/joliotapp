@@ -14,12 +14,11 @@ import AccountHeader from './assets/components/Headers/Account/Account.jsx';
 import MenuHeader from './assets/components/Headers/Menu/Menu.jsx';
 
 function App() {
-    console.log('App');
     return (
         <Router>
-            <HeaderController />
-            <RouterController />
-            <Footer />
+            <HeaderController/>
+            <RouterController/>
+            <Footer/>
         </Router>
     );
 }
@@ -28,19 +27,22 @@ function HeaderController() {
     const location = useLocation();
     const { pathname } = location;
 
-    if (pathname === "/") {
-        return <HomeHeader />;
-    } else if (pathname === "/home") {
-        return <HomeHeader />;
-    }else if (pathname === "/news") {
-        return <NewsHeader />;
-    } else if (pathname === "/map") {
-        return <MapHeader />;
-    } else if (pathname === "/account") {
-        return <AccountHeader />;
-    } else if (pathname === "/menu") {
-        return <MenuHeader />;
+    console.log('HeaderController', location);
+
+    let name;
+
+    if (pathname === '/') {
+        name = 'home';
+    } else {
+        name = pathname.substring(1);
     }
+
+    return(
+        <header>
+            <h1 style={{textTransform: "uppercase"}}>{name}</h1>
+        </header>
+    )
+
 }
 
 function NotFound() {
