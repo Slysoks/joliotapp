@@ -7,11 +7,6 @@ import Account from './assets/pages/Account/Account.jsx';
 import Menu from './assets/pages/Menu/Menu.jsx';
 
 import Footer from './assets/components/Footer/Footer';
-import HomeHeader from './assets/components/Headers/Home/Home';
-import NewsHeader from './assets/components/Headers/News/News';
-import MapHeader from './assets/components/Headers/Map/Map';
-import AccountHeader from './assets/components/Headers/Account/Account.jsx';
-import MenuHeader from './assets/components/Headers/Menu/Menu.jsx';
 
 function App() {
     return (
