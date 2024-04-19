@@ -42,5 +42,8 @@ footer nav li img {
   height: 30px;
   border-radius: 50%;
 }
+footer nav li img.active {
+  background-color: #ffd500;
+}
 
 /*# sourceMappingURL=Footer.css.map */
