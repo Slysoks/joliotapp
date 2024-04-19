@@ -22,5 +22,17 @@ Install npm dependencies :
 npm install
 ```
 
+Run the app with npm :
+
+```sh	
+npm run dev
+```
+
+Run the app with npm :
+
+```sh	
+npm run dev
+```
+
 ## Notion
 [Notion](https://www.notion.so/Liste-de-t-ches-28ca06ee793f4d16ae5074249721fac2?pvs=4)
