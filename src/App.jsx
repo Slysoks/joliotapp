@@ -23,8 +23,6 @@ function HeaderController() {
     const location = useLocation();
     const { pathname } = location;
 
-    console.log('HeaderController', location);
-
     let name;
 
     if (pathname === '/') {
@@ -51,7 +49,13 @@ function NotFound() {
     const location = useLocation();
     const { pathname } = location;
 
-    return <h1 id={'notfound'}>404 Page introuvable : {pathname}</h1>;
+    return (
+        <h1 id={'notfound'} style={{
+            width: '100%', height: '100%', textAlign: 'center'
+        }}>
+            Erreur 404 Page introuvable : {pathname}
+        </h1>
+    );
 }
 
 function RouterController() {
