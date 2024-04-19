@@ -1,11 +1,11 @@
 {
     "name": "Lycée Joliot-Curie Application",
     "short_name": "Joliot",
-    "start_url": "/?home=true",
+    "start_url": "/",
     "icons": [
       {
-        "src": "/src/assets/img/icons/logo.png",
-        "sizes": "826x644",
+        "src": "/logo.png",
+        "sizes": "any",
         "type": "image/png"
       }
     ],
