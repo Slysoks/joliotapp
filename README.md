@@ -21,3 +21,6 @@ Install npm dependencies :
 ```sh
 npm install
 ```
+
+## Notion
+[Notion](https://www.notion.so/Liste-de-t-ches-28ca06ee793f4d16ae5074249721fac2?pvs=4)
