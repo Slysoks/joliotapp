@@ -12,9 +12,9 @@ import Footer from './assets/components/Footer/Footer';
 function App() {
     return (
         <Router>
-            <HeaderController/>
-            <RouterController/>
-            <Footer/>
+            <HeaderController />
+            <RouterController />
+            <FooterController />
         </Router>
     );
 }
@@ -43,6 +43,23 @@ function HeaderController() {
         </header>
     )
 
+}
+
+function FooterController() {
+    const location = useLocation();
+    const { pathname } = location;
+
+    let name;
+
+    if (pathname === '/') {
+        name = 'home';
+    } else {
+        name = pathname.substring(1);
+    }
+
+    return(
+        <Footer page={name}/>
+    )
 }
 
 function NotFound() {
