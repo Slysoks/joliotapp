@@ -8,7 +8,7 @@ function News() {
             <article key={i}>
                 <Link to={data[i].uuid}>
                     <h2>{data[i].title}</h2>
-                    <img src={'/public/news/' + data[i].imagelocation} alt={''}/>
+                    <img src={'/news/' + data[i].imagelocation} alt={''}/>
                 </Link>
             </article>
         );
