@@ -1,4 +1,4 @@
-function Menu() {
+export default function Menu() {
     const currentDate = new Date();
     const weekDay = currentDate.toLocaleString('fr-FR', { weekday: 'long' });
   
@@ -8,5 +8,3 @@ function Menu() {
         </div>
     );
 }
-
-export default Menu;
