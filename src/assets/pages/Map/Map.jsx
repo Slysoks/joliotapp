@@ -2,9 +2,7 @@ import Component from './Component/Component'
 
 function Map() {
     return (
-        <div>
-            <Component />
-        </div>
+        <Component />
     );
 }
 
