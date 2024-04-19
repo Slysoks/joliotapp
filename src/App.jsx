@@ -5,9 +5,6 @@ import News from './assets/pages/News/News.jsx';
 import Map from './assets/pages/Map/Map.jsx';
 
 import Footer from './assets/components/Footer/Footer';
-import HomeHeader from './assets/components/Headers/Home/Home';
-import NewsHeader from './assets/components/Headers/News/News';
-import MapHeader from './assets/components/Headers/Map/Map';
 
 
 function App() {
@@ -35,7 +32,13 @@ function HeaderController() {
     }
 
     return(
-        <header>
+        <header style={{
+            textAlign: 'left',
+            padding: '1rem',
+            borderBottom: '1px solid #ccc',
+            backgroundColor: '#f8f9fa',
+            filter: 'drop-shadow(0 0 0.5rem #999)'
+        }}>
             <h1 style={{textTransform: "uppercase"}}>{name}</h1>
         </header>
     )
