@@ -13,7 +13,7 @@ export default function Home() {
             </p>
             <br /><br/>
             <h2>
-                Bonne navigation et n&apos;h&eacute;sitez pas &acute; suivre le d&eacute;veloppement de l&apos;application !
+                Bonne navigation et n&apos;h&eacute;sitez pas &agrave; suivre le d&eacute;veloppement de l&apos;application !
             </h2>
         </div>
     );
