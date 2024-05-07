@@ -26,9 +26,9 @@ export default function Footer({ page }) {
                             </Link>
                         </li>
                         <li>
-                            <Link to={'menu'}>
-                                <img src="/src/assets/img/icons/menu.svg" alt="Menu"
-                                     className={page === 'menu' ? 'active' : ''}/>
+                            <Link to={'timetable'}>
+                                <img src="/src/assets/img/icons/timetable.svg" alt="Table"
+                                     className={page === 'timetable' ? 'active' : ''}/>
                             </Link>
                         </li>
                         <li>

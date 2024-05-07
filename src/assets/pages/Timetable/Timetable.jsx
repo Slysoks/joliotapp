@@ -1,4 +1,4 @@
-export default function Menu() {
+export default function Timetable() {
     const currentDate = new Date();
     const weekDay = currentDate.toLocaleString('fr-FR', { weekday: 'long' });
   

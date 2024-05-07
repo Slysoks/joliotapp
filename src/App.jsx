@@ -4,7 +4,7 @@ import Home from './assets/pages/Home/Home.jsx';
 import News from './assets/pages/News/News.jsx';
 import Map from './assets/pages/Map/Map.jsx';
 import Account from './assets/pages/Account/Account.jsx';
-import Menu from './assets/pages/Menu/Menu.jsx';
+import Timetable from "./assets/pages/Timetable/Timetable.jsx";
 
 import Footer from './assets/components/Footer/Footer';
 
@@ -27,6 +27,8 @@ function HeaderController() {
 
     if (pathname === '/') {
         name = 'home';
+    } else if (pathname === '/timetable') {
+        name = 'emploi du temps';
     } else {
         name = pathname.substring(1);
     }
@@ -53,7 +55,7 @@ function FooterController() {
 
     if (pathname === '/') {
         name = 'home';
-    } else {
+    }  else {
         name = pathname.substring(1);
     }
 
@@ -82,8 +84,9 @@ function RouterController() {
             <Route path="/home" element={<Home />} />
             <Route path="/news" element={<News />} />
             <Route path="/map" element={<Map />} />
+            <Route path="/carte" element={<Map />} />
             <Route path="/account" element={<Account />} />
-            <Route path="/menu" element={<Menu />} />
+            <Route path="/timetable" element={<Timetable />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
     );

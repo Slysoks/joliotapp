@@ -27,7 +27,6 @@ function getIcon(iconName) {
         tooltipAnchor: [16, -28],
         shadowSize: [41, 41]
     });
-
 }
 
 function Markers () {
