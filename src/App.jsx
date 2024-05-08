@@ -44,7 +44,6 @@ function HeaderController() {
             <h1 style={{textTransform: "uppercase"}}>{name}</h1>
         </header>
     )
-
 }
 
 function FooterController() {
