@@ -4,7 +4,7 @@
     "start_url": "/",
     "icons": [
       {
-        "src": "/logo.png",
+        "src": "/logo-white-background.png",
         "sizes": "any",
         "type": "image/png"
       }

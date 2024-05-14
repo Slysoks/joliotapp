@@ -1,8 +1,8 @@
-import { authenticateToken, PronoteApiAccountId, PawnoteNetworkFail } from 'pawnote';
+import '/src/open.scss'
 
 export default function Account() {
     return (
-        <div>
+        <div className={'main-container'}>
             <h1>Account</h1>
         </div>
     );

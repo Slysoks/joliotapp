@@ -1,6 +1,8 @@
 import data from './news.json'
 import './News.scss'
 import { Link } from 'react-router-dom'
+import '/src/open.scss'
+
 function News() {
     const articles = [];
     for (let i = 0; i < data.length; i++) {
@@ -14,9 +16,9 @@ function News() {
         );
     }
     return (
-        <section>
+        <div className={'main-container'}>
             {articles}
-        </section>
+        </div>
     );
 }
 

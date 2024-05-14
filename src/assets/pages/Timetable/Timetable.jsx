@@ -1,11 +1,12 @@
 import './Timetable.scss'
+import '/src/open.scss'
 
 export default function Timetable() {
     const currentDate = new Date();
     const weekDay = currentDate.toLocaleString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' });
   
     return (
-        <div>
+        <div className={'main-container'}>
             <nav>
                 <a className={'arrow'} href={'#'}>&#8249;</a>
                 <h1 style={{textTransform: "capitalize", textAlign: "center", fontSize: "24px"}}>{weekDay}</h1>

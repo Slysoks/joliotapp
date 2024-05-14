@@ -1,6 +1,8 @@
+import '/src/open.scss'
+
 export default function Home() {
     return (
-        <div>
+        <div className={'main-container'}>
             <h3>
                 Bienvenue sur l&apos;application du lycée Joliot Curie.
                 <br />
