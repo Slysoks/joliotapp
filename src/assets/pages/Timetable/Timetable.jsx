@@ -14,7 +14,7 @@ export default function Timetable() {
             </nav>
             <div id={'table'}>
                 <div className={'lesson'}>
-                    <header>
+                    <header className={'mat'}>
                         <p className={'lesson-name'}>Math&eacute;matiques</p>
 
                         <div className={'lesson-time'}>
@@ -27,8 +27,24 @@ export default function Timetable() {
                         <p className={'room'}>D105</p>
                         <p className={'teacher'}>M. Dupont</p>
                         <p className={'time'}>55 min</p>
+                    </div>
+                </div>
+                <div className={'lesson'}>
+                    <header className={'fra'}>
+                        <p className={'lesson-name'}>Français</p>
+
+                        <div className={'lesson-time'}>
+                            <p className={'beginning-hour'}>09:05</p>
+                            <p className={'end-hour'}>10:00</p>
+                        </div>
+                    </header>
+
+                    <div className={'lesson-infos'}>
+                        <p className={'room'}>G107</p>
+                        <p className={'teacher'}>M. Potell</p>
+                        <p className={'time'}>55 min</p>
                         <div className={'status cancelled'}>
-                            <p className={'status-text'}>Changement de salle</p>
+                            <p className={'status-text'}>Cours annul&eacute;</p>
                         </div>
                     </div>
                 </div>
