@@ -1,0 +1,63 @@
+nav {
+  display: flex;
+}
+nav .arrow {
+  font-size: 32px;
+  text-decoration: none;
+  color: #777;
+  font-weight: bold;
+}
+nav .arrow, nav h1 {
+  width: 33.3333333333%;
+}
+
+#table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#table .lesson {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: #555 1px solid;
+  border-radius: 20px;
+}
+#table .lesson header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  padding: 5px 10px;
+  background: #f16f6f;
+  border-radius: 20px 20px 0 0;
+}
+#table .lesson header .lesson-name {
+  font-size: 20px;
+}
+#table .lesson header .lesson-time {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+#table .lesson .lesson-infos {
+  width: 95%;
+  padding-bottom: 10px;
+  align-self: center;
+}
+#table .lesson .lesson-infos .status.cancelled {
+  display: flex;
+  align-items: center;
+  background: #ef6161;
+  border-radius: 50px;
+}
+#table .lesson .lesson-infos .status .status-text {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+/*# sourceMappingURL=Timetable.css.map */
