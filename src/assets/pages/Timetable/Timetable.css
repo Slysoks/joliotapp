@@ -1,5 +1,6 @@
 nav {
   display: flex;
+  width: 100%;
   -webkit-tap-highlight-color: transparent;
 }
 nav .arrow {
@@ -11,13 +12,14 @@ nav .arrow {
   transition: background 0.2s;
 }
 nav .arrow:active {
-  background: rgba(85, 85, 85, 0.3333333333);
+  background: rgba(238, 238, 238, 0.8);
 }
 nav .arrow, nav h1 {
   width: 33.3333333333%;
 }
 
 #table {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
