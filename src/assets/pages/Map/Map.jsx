@@ -1,22 +1,25 @@
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import file from './markers.json'
-import L from 'leaflet';
+import './Map.scss'
 
 
 export default function Map() {
-    const position = [48.12599,-1.64820]; // Set your own coordinates
-
+    const position = [48.12599, -1.64820]; // Set your own coordinates
     return (
-        <MapContainer center={position} zoom={18} style={{height : '100vh'}}>
+        <MapContainer center={position} zoom={18} style={{height: "100vh", width: "100%"}}>
             <TileLayer
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                maxZoom={20}
+                minZoom={17}
+                url="https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}"
+                subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
             />
-            <Markers />
         </MapContainer>
     );
 }
+
+// Old version
+
+/*
 
 function getIcon(iconName) {
     return new L.Icon({
@@ -50,3 +53,4 @@ function Markers () {
 
     return markers;
 }
+*/
