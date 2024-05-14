@@ -1,7 +1,13 @@
+import { authenticateToken, PronoteApiAccountId, PawnoteNetworkFail } from 'pawnote';
+
 export default function Account() {
+    main();
     return (
-        <div>
-            <h1>Profil</h1>
-        </div>
+
     );
+}
+
+async function main() {
+
+
 }
