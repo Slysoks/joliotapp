@@ -8,7 +8,7 @@ export default function Timetable() {
         <div>
             <nav>
                 <a className={'arrow'} href={'#'}>&#8249;</a>
-                <h1 style={{textTransform: "capitalize", textAlign: "center", fontSize: "26px"}}>{weekDay}</h1>
+                <h1 style={{textTransform: "capitalize", textAlign: "center", fontSize: "24px"}}>{weekDay}</h1>
                 <a className={'arrow'} href={'#'}>&#8250;</a>
             </nav>
             <div id={'table'}>

@@ -10,6 +10,7 @@ import Footer from './assets/components/Footer/Footer';
 
 
 function App() {
+    // -webkit-tap-highlight-color: transparent; is used to remove the blue highlight when clicking on a button
     return (
         <Router>
             <HeaderController />
@@ -25,12 +26,19 @@ function HeaderController() {
 
     let name;
 
+    // Define some custom names for the pages
+
     if (pathname === '/') {
-        name = 'home';
+        name = 'accueil';
     } else if (pathname === '/timetable') {
         name = 'emploi du temps';
-    } else {
-        name = pathname.substring(1);
+    } else if (pathname === '/account') {
+        name = 'compte';
+    } else if (pathname === '/map' || pathname === '/carte') {
+        name = 'carte';
+    } else if (pathname.startsWith('/news')) {
+        name = 'actualités';
+
     }
 
     return(

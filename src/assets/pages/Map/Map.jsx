@@ -6,10 +6,10 @@ import './Map.scss'
 export default function Map() {
     const position = [48.12599, -1.64820]; // Set your own coordinates
     return (
-        <MapContainer center={position} zoom={18} style={{height: "100vh", width: "100%"}}>
+        <MapContainer center={position} zoom={17} style={{height: "100vh", width: "100%"}}>
             <TileLayer
                 maxZoom={20}
-                minZoom={17}
+                minZoom={15}
                 url="https://{s}.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}"
                 subdomains={['mt0', 'mt1', 'mt2', 'mt3']}
             />

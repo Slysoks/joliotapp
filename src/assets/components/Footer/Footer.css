@@ -9,6 +9,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-tap-highlight-color: transparent;
 }
 footer nav {
   width: 100%;

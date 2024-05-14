@@ -1,11 +1,17 @@
 nav {
   display: flex;
+  -webkit-tap-highlight-color: transparent;
 }
 nav .arrow {
   font-size: 32px;
   text-decoration: none;
   color: #777;
   font-weight: bold;
+  background: rgba(255, 255, 255, 0);
+  transition: background 0.2s;
+}
+nav .arrow:active {
+  background: rgba(85, 85, 85, 0.3333333333);
 }
 nav .arrow, nav h1 {
   width: 33.3333333333%;
